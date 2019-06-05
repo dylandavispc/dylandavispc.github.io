@@ -1,0 +1,84 @@
+header {
+    width: 100%;
+    background: #ffffff;
+    border-color: #cccccc;
+    position: fixed;
+    top: 0;
+}
+
+.name-tag {
+    float: left;
+    color: white;
+    background: #4aaaa5;
+}
+
+nav {
+    float: right;
+    color: #777777;
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration-line: none;
+}
+
+
+
+footer {
+    background: #666666;
+}
+
+.copyright {
+
+}
+
+
+
+
+body {
+    background-image: url(../images/background.png);
+}
+
+section {
+    background: #ffffff;
+    border-color: #dddddd;
+}
+
+.pageName {
+    color:  #4aaaa5;
+}
+
+
+
+
+.imgProfile {
+
+}
+
+.textAbout {
+
+}
+
+
+
+
+.contact-container {
+
+}
+
+.contact-input {
+
+}
+
+.contact-message {
+
+}
+
+
+
+
+.directory {
+
+}
+
+.directoryText {
+
+}
+
