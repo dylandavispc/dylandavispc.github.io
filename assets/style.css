@@ -1,5 +1,5 @@
 header {
-    margin: 0px 0px 40px 0px;
+    margin: 0px 0px 20px 0px;
     width: 100%;
     height: 78px;
     background: #ffffff;
@@ -19,7 +19,7 @@ header {
     position: absolute;
     left: 0;
     top: 0;
-    color: white;
+    color: #ffffff;
     background: #4aaaa5;
     padding: 0px 20px;
     border: 0px 0px 2px 0px;
@@ -30,6 +30,10 @@ a {
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
 }
 
 nav {
@@ -46,7 +50,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    border-top: 4px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     background: #666666;
 }
 
@@ -96,10 +100,20 @@ hr {
     margin: 20px;
 }
 
+img {
+    object-fit: cover;
+    width: 282px;
+    height: 170px;
+    background: #666666;
+}
+
+.directory:hover {
+    opacity: .6;
+}
+
 .imgProfile {
     flex: 1;
-    width: 317px;
-    height: 238px;
+    height: 240px;
 }
 
 .textbox1 {
@@ -134,9 +148,41 @@ hr {
 
 
 
-.contact-container {
 
-}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    color: #777777;
+    }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #f3008e;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+  }
+
 
 .contact-input {
 
@@ -150,10 +196,21 @@ hr {
 
 
 .directory {
-
+    position: relative;
+    margin: 15px;
 }
 
 .directoryText {
-
+    position: absolute;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding: 15px;
+    margin: 5px 0px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
 

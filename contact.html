@@ -30,22 +30,26 @@
 
         <hr>
 
-        <form class="contact-container">
-            <label>Full Name</label>
-            <input class="contact-input" type="text">
+        <div class="container">
+            <form action="action_page.php">
+            
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+            
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="email" placeholder="blah-blah@bullshit.com">
 
-            <label>E-Mail</label>
-            <input class="contact-input" type="text">
-
-            <label>Message</label>
-            <input class="contact-message" type="text">
-
-            <input type="submit" value="Submit">
-        </form>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="This website sucks..." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+            </form>
+        </div>
     </section>
 
     <footer>
-        <div class="copyright">copyright © NostoSounds.LLC</div>
+        <div class="copyright">Copyright © NostoSounds.LLC</div>
     </footer>
 </body>
 
